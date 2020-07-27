@@ -26,7 +26,7 @@ Para inicializar el modulo ejecute el comando en el directorio del proyecto que 
 go mod init github.com/propietario/gomodulo/
 ```
 
-Cambie el valor de github.com/avivas/gomodulo/ segun el repositorio que cree. Verifique que este creado
+Cambie el valor de github.com/propietario/gomodulo/ segun el repositorio que cree. Verifique que este creado
 el archivo go.mod con este contenido
 
 ```console
@@ -171,7 +171,7 @@ Ahora cree el archivo usogomodulo.go con el siguiente contenido:
 
 ```console
 package main
-import "github.com/avivas/gomodulo"
+import "github.com/propietario/gomodulo"
 func main(){
   gomodulo.Version()
 }
@@ -231,7 +231,7 @@ Ajuste el archivo usogomodulo.go para que quede de esta forma:
 
 ```console
 package main
-import "github.com/avivas/gomodulo/v2"
+import "github.com/propietario/gomodulo/v2"
 func main(){
   gomodulo.Version()
 }
