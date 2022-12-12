@@ -147,7 +147,7 @@ Ejecute el siguiente comando para crear un directorio e inicializar el proyecto
 ```console
 mkdir usogomodulo
 cd usogomodulo
-go init mod github.com/propietario/usogomodulo
+go mod init github.com/propietario/usogomodulo
 ```
 
 Note que el valor github.com/propietario/repositorio debe ser el que usted desee usar y adicionalmente
